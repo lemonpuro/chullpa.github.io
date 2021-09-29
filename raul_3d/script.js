@@ -65,7 +65,7 @@ function main() {
 
   {
     const objLoader = new OBJLoader();
-    objLoader.load('https://raw.githubusercontent.com/lemonpuro/lemonpuro.github.io/main/Images/textured%2008.58.00.obj', (root) => {
+    objLoader.load('https://raw.githubusercontent.com/lemonpuro/chullpa.github.io/main/raul_3d/poly/adan.obj', (root) => {
       scene.add(root);
     });
   }
